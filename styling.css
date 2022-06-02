@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -63,13 +63,13 @@ form input:focus {
 .icon-exchange i {
   font-size: 25px;
   margin-top: 33px;
-  opacity: 0.6;
+
   cursor: pointer;
   transition: 0.2s ease;
 }
 
 .icon-exchange i:active {
-  opacity: 1;
+  font-size: 20px;
 }
 
 form .drop-list {
@@ -120,4 +120,17 @@ form button {
 form button:hover,
 form button:active {
   opacity: 0.8;
+}
+
+.info {
+  font-size: 12px;
+  text-align: center;
+  padding: 7px;
+  border-radius: 5px;
+  color: rgb(15, 1, 65);
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(15, 1, 65);
 }
